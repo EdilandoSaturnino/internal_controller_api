@@ -15,7 +15,7 @@ app.use('/clientes', clienteRoutes);
 
 app.get('/', (req, res) => {
     const healthInfo = {
-        status: 'Up',
+        status: '200',
         uptime: process.uptime(),
         message: 'API está saudável',
         timestamp: Date.now(),
